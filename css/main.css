@@ -127,6 +127,12 @@ p {
   font-family: monospace;
 }
 
+.stagedirections {
+  color: Black;
+  font-size: 12pt;
+  font-style: italic;
+}
+
 
 
 /* ==========================================================================
