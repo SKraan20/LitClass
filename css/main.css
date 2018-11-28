@@ -115,9 +115,9 @@ p {
 .annotation {
   background-color: yellow;
   height: 50px;
-  width: 300px;
+  width: 600px;
   position: fixed;
-  left: 250px;
+  left: 600px;
   top: 90px;
   border: 3px solid Black;
 }
@@ -164,11 +164,11 @@ p {
   line-height: 50%;
 }
 
-#rectangle {
-      width: 200px;
-      height: 100px;
-      color: : Black
-    }
+.titleannotation {
+  text-indent: 750px;
+  margin-top: 0px;
+  line-height: 10%;
+}
 
 
 
