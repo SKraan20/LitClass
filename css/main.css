@@ -133,6 +133,17 @@ p {
   font-style: italic;
 }
 
+.bold {
+  color: Black;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.boldname {
+  color: Black;
+  font-size: 12pt;
+  font-weight: bolder;
+}
 
 
 /* ==========================================================================
