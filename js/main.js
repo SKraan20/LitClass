@@ -1,11 +1,23 @@
 $(document).ready(function(){
-  $('.annotation').hide();
+  $('.annotation1').hide();
 })
 
-$('.highlight').mouseenter(function() {
-  $('.annotation').show();
+$('.highlight1').mouseenter(function() {
+  $('.annotation1').show();
 })
 
-$('.highlight').mouseleave(function() {
-  $('.annotation').hide();
+$('.highlight1').mouseleave(function() {
+  $('.annotation1').hide();
+})
+
+$(document).ready(function(){
+  $('.annotation2').hide();
+})
+
+$('.highlight2').mouseenter(function() {
+  $('.annotation2').show();
+})
+
+$('.highlight2').mouseleave(function() {
+  $('.annotation2').hide();
 })
