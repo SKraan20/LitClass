@@ -99,6 +99,8 @@ textarea {
 
 p {
   color: Black;
+  text-indent: 5px;
+  margin-top: 0px;
 }
 
 .highlight {
@@ -142,17 +144,17 @@ p {
 .boldname {
   color: Black;
   font-size: 12pt;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .leftindent {
-  float: left;
-  text-indent: 5px;
+  text-indent: 40px;
   margin-top: 0px;
+  line-height: 50%;
 }
 
 .verticalline {
-border-left: thick solid #ff0000; 
+border-left: thick solid #ff0000;
 }
 
 
