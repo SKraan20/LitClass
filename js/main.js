@@ -10,14 +10,15 @@ $('.highlight').mouseleave(function() {
   $('.annotation').hide();
 })
 
+
 $(document).ready(function(){
-  $('.annotationone').hide();
+  $('#annotationtwo').hide();
 })
 
 $('.highlightone').mouseenter(function() {
-  $('.annotationone').show();
+  $('#annotationtwo').show();
 })
 
 $('.highlightone').mouseleave(function() {
-  $('.annotationone').hide();
+  $('#annotationtwo').hide();
 })

@@ -103,12 +103,13 @@ p {
   margin-top: 0px;
 }
 
+
 .highlight {
   background-color: pink;
 }
 
 .highlightone {
-  background-color: yellow;
+  background-color: pink;
 }
 
 
@@ -119,17 +120,7 @@ p {
   position: absolute;
   right: 700px;
   top: 25px;
-  border: 3px solid grey;
-}
-
-.annotationone {
-  background-color: pink;
-  height: 50px;
-  width: 225px;
-  position: absolute;
-  right: 700px;
-  top: 115px;
-  border: 3px solid grey;
+  border: 3px solid #3b3b3b;
 }
 
 .pa1 {
@@ -139,7 +130,17 @@ p {
   position: absolute;
   left: 70px;
   top: 90px;
-  border: 3px solid grey;
+  border: 3px solid #3b3b3b;
+}
+
+.pa2 {
+  background-color: pink;
+  height: 50px;
+  width: 500px;
+  position: absolute;
+  left: 70px;
+  top: 190px;
+  border: 3px solid #3b3b3b;
 }
 
 .titlepage {
@@ -184,14 +185,30 @@ p {
   line-height: 50%;
 }
 
+#annotationtwo {
+  width:200px;
+  height:50px;
+  background:pink;
+  position: absolute;
+  right: 25px;
+  top: 300px;
+  border: 3px solid #3b3b3b;
+}
+
+
 .titleannotation {
   text-indent: 750px;
   margin-top: 0px;
   line-height: 10%;
 }
 
-
-
+#bordertop{
+    width:2500px;
+    height:10px;
+    background:#e37b87;
+    right:20px;
+    top: 0px;
+}
 
 /* ==========================================================================
    Helper classes
