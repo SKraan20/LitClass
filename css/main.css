@@ -104,7 +104,7 @@ p {
 }
 
 .highlight {
-  background-color: yellow;
+  background-color: pink;
 }
 
 .highlightone {
@@ -113,23 +113,23 @@ p {
 
 
 .annotation {
-  background-color: yellow;
+  background-color: pink;
   height: 50px;
   width: 225px;
   position: fixed;
   left: 250px;
   top: 90px;
-  border: 3px solid Black;
+  border: 3px solid grey;
 }
 
 .pa1 {
   background-color: pink;
   height: 50px;
-  width: 225px;
+  width: 500px;
   position: fixed;
-  left: 750px;
+  left: 700px;
   top: 90px;
-  border: 3px solid Black;
+  border: 3px solid grey;
 }
 
 .titlepage {
@@ -137,6 +137,7 @@ p {
   font-size: 16pt;
   font-family: monospace;
   font-weight: bold;
+  top: 20px;
 }
 
 .titlesub {
