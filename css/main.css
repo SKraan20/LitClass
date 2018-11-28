@@ -99,7 +99,7 @@ textarea {
 
 p {
   color: Black;
-  text-indent: 20px;
+  text-indent: 30px;
   margin-top: 0px;
 }
 
@@ -141,7 +141,7 @@ p {
   color: Black;
   font-size: 12pt;
   font-style: italic;
-  text-indent: 50px;
+  text-indent: 60px;
   margin-top: 0px;
   line-height: 200%;
 }
@@ -159,7 +159,7 @@ p {
 }
 
 .leftindent {
-  text-indent: 80px;
+  text-indent: 90px;
   margin-top: 0px;
   line-height: 50%;
 }
