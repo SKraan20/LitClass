@@ -115,9 +115,9 @@ p {
 .annotation {
   background-color: yellow;
   height: 50px;
-  width: 600px;
+  width: 225px;
   position: fixed;
-  left: 600px;
+  left: 250px;
   top: 90px;
   border: 3px solid Black;
 }
