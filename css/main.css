@@ -121,12 +121,14 @@ p {
   color: Black;
   font-size: 16pt;
   font-family: monospace;
+  font-weight: bold;
 }
 
 .titlesub {
   color: Black;
   font-size: 14pt;
   font-family: monospace;
+  font-weight: bold;
 }
 
 .stagedirections {
