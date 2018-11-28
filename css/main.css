@@ -107,6 +107,10 @@ p {
   background-color: yellow;
 }
 
+.highlight1 {
+  background-color: yellow;
+}
+
 
 .annotation {
   background-color: yellow;
@@ -161,10 +165,10 @@ p {
   line-height: 50%;
 }
 
-#rectangle {
+.rectangle {
       width: 200px;
       height: 100px;
-      background: red;
+      color: : Black
     }
 
 
