@@ -122,6 +122,15 @@ p {
   border: 3px solid Black;
 }
 
+.pa1 {
+  background-color: pink;
+  height: 50px;
+  width: 225px;
+  position: fixed;
+  left: 750px;
+  top: 90px;
+  border: 3px solid Black;
+}
 
 .titlepage {
   color: Black;
