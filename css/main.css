@@ -135,6 +135,9 @@ p {
   color: Black;
   font-size: 12pt;
   font-style: italic;
+  text-indent: 40px;
+  margin-top: 0px;
+  line-height: 50%;
 }
 
 .bold {
@@ -153,6 +156,12 @@ p {
   text-indent: 40px;
   margin-top: 0px;
   line-height: 50%;
+}
+
+.vl {
+  width:2px;
+  height:200px;
+  color: :black;
 }
 
 
