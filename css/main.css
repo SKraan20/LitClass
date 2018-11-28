@@ -146,8 +146,15 @@ p {
 }
 
 .leftindent {
+  float: left;
   text-indent: 5px;
+  margin-top: 0px;
 }
+
+.verticalline {
+border-left: thick solid #ff0000; 
+}
+
 
 
 /* ==========================================================================
