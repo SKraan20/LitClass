@@ -115,10 +115,10 @@ p {
   width: 300px;
 }
 
-.pagetitle {
-  font-size: 5em;
+.titlepage {
   color: Black;
-  line-height: 2.0;
+  font-size: 16pt;
+  font-family: monospace;
 }
 
 
