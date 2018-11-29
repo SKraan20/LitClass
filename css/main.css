@@ -109,43 +109,62 @@ p {
 
 .titlepage {
   color: Black;
-  font-size: 16px;
-  font-family: monospace;
+  font-size: 45px;
+  Font font-family: "Times New Roman";
   font-weight: bold;
 }
 
 .titlesub {
   color: Black;
-  font-size: 14px;
-  font-family: monospace;
+  font-size: 30px;
+  font-family: "Times New Roman";
   font-weight: bold;
+  text-indent:170px;
+  margin-bottom: 10px;
 }
 
 .stagedirections {
   color: Black;
-  font-size: 12px;
+  font-size: 15px;
   font-style: italic;
   text-indent: 60px;
   margin-top: 0px;
-  line-height: 200%;
+  line-height: 100%;
 }
 
 .bold {
   color: Black;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
+  text-indent: 28px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.scenename {
+  color: Black;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 28px;
+  line-height: 100%;
+  margin-bottom: 10px;
 }
 
 .boldname {
   color: Black;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 40px;
+  line-height: 100%;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .leftindent {
   margin-top: 0px;
-  margin-left: 90px;
+  margin-left: 80px;
+  font-size: 15px;
+  line-height: 125%;
 }
 
 .annotation {
@@ -176,14 +195,14 @@ p {
 
 #bordertop{
     width: 100%;
-    height:40px;
+    height:50px;
     background:#e37b87;
     top: 0px;
     position: fixed;
 }
 
 .container {
-  padding-top: 40px;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
 }
