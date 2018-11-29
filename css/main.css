@@ -107,47 +107,11 @@ p {
   background-color: pink;
 }
 
-.highlightone {
-  background-color: pink;
-}
-
-
-.annotation {
-  background-color: pink;
-  height: 50px;
-  width: 225px;
-  position: absolute;
-  right: 700px;
-  top: 25px;
-  border: 3px solid #3b3b3b;
-}
-
-.pa1 {
-  background-color: pink;
-  height: 50px;
-  width: 500px;
-  position: absolute;
-  left: 70px;
-  top: 90px;
-  border: 3px solid #3b3b3b;
-}
-
-.pa2 {
-  background-color: pink;
-  height: 50px;
-  width: 500px;
-  position: absolute;
-  left: 70px;
-  top: 190px;
-  border: 3px solid #3b3b3b;
-}
-
 .titlepage {
   color: Black;
   font-size: 16px;
   font-family: monospace;
   font-weight: bold;
-  top: 20px;
 }
 
 .titlesub {
@@ -177,7 +141,6 @@ p {
   font-size: 12px;
   font-weight: bold;
   margin-left: 30px;
-
 }
 
 .leftindent {
@@ -185,16 +148,25 @@ p {
   margin-left: 90px;
 }
 
-#annotationtwo {
-  width:200px;
-  height:50px;
+.annotation {
+  width: 200px;
+  height: auto;
   background:pink;
-  position: absolute;
-  right: 25px;
-  top: 300px;
+}
+
+.current-annotation {
   border: 3px solid #3b3b3b;
 }
 
+.rectangle {
+  height: 1000px;
+  width: 3px;
+  background-color: #3b3b3b;
+  position: fixed;
+  left: 600px;
+  top: 0px;
+  border: 3px;
+}
 
 .titleannotation {
   text-indent: 750px;
@@ -204,13 +176,14 @@ p {
 
 #bordertop{
     width: 100%;
-    height:10px;
+    height:40px;
     background:#e37b87;
-    right:20px;
     top: 0px;
+    position: fixed;
 }
 
 .container {
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
 }

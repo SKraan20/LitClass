@@ -1,24 +1,22 @@
-$(document).ready(function(){
-  $('.annotation').hide();
-})
+(function (jQuery, $, window, undefined) {
 
-$('.highlight').mouseenter(function() {
-  $('.annotation').show();
-})
+  // Document ready.
+  $(function(){
+    $('.highlight').mouseenter(function(e) {
+      showAnnotation(e);
+    });
+    $('.highlight').mouseleave(function(e) {
+      hideAnnotation(e);
+    });
+  });
 
-$('.highlight').mouseleave(function() {
-  $('.annotation').hide();
-})
+  function showAnnotation(e) {
+    var id = e.currentTarget.attributes["data-highlight"].nodeValue;
+    $('[data-annotation="' + id + '"]').addClass("current-annotation");
+  }
 
+  function hideAnnotation(e) {
+    $('.annotation').removeClass("current-annotation");
+  }
 
-$(document).ready(function(){
-  $('#annotationtwo').hide();
-})
-
-$('.highlightone').mouseenter(function() {
-  $('#annotationtwo').show();
-})
-
-$('.highlightone').mouseleave(function() {
-  $('#annotationtwo').hide();
-})
+})(jQuery, $, window);
