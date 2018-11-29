@@ -99,7 +99,6 @@ textarea {
 
 p {
   color: Black;
-  text-indent: 30px;
   margin-top: 0px;
 }
 
@@ -145,7 +144,7 @@ p {
 
 .titlepage {
   color: Black;
-  font-size: 16pt;
+  font-size: 16px;
   font-family: monospace;
   font-weight: bold;
   top: 20px;
@@ -153,14 +152,14 @@ p {
 
 .titlesub {
   color: Black;
-  font-size: 14pt;
+  font-size: 14px;
   font-family: monospace;
   font-weight: bold;
 }
 
 .stagedirections {
   color: Black;
-  font-size: 12pt;
+  font-size: 12px;
   font-style: italic;
   text-indent: 60px;
   margin-top: 0px;
@@ -169,20 +168,21 @@ p {
 
 .bold {
   color: Black;
-  font-size: 13pt;
+  font-size: 13px;
   font-weight: bold;
 }
 
 .boldname {
   color: Black;
-  font-size: 12pt;
+  font-size: 12px;
   font-weight: bold;
+  margin-left: 30px;
+
 }
 
 .leftindent {
-  text-indent: 90px;
   margin-top: 0px;
-  line-height: 50%;
+  margin-left: 90px;
 }
 
 #annotationtwo {
@@ -203,11 +203,26 @@ p {
 }
 
 #bordertop{
-    width:2500px;
+    width: 100%;
     height:10px;
     background:#e37b87;
     right:20px;
     top: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.annotations {
+  border-left: 3px solid black;
 }
 
 /* ==========================================================================
