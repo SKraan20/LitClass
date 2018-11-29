@@ -102,7 +102,9 @@ p {
   margin-top: 0px;
 }
 
-
+br{
+  height: 20px;
+}
 .highlight {
   background-color: pink;
 }
@@ -168,13 +170,16 @@ p {
 }
 
 .annotation {
-  width: 200px;
+  width: 350px;
   height: auto;
-  background:pink;
+  background: pink;
 }
 
 .current-annotation {
   border: 3px solid #3b3b3b;
+  background-color: #e37b87;
+  width: 350px;
+  height: auto;
 }
 
 .rectangle {
@@ -214,7 +219,7 @@ section {
 }
 
 .annotations {
-  border-left: 3px solid black;
+  border-left: 5px solid #3b3b3b;
 }
 
 /* ==========================================================================
